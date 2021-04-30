@@ -19,26 +19,12 @@
 body{
     font-family: 'Open Sans', sans-serif;;
 } 
-/* Cabeza Logo */
-.Logo__Cabeza{
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: center;
+/* Logo */
+.img-logo{
+    width: 60px;
+    object-fit: cover; 
 }
-.img__nav{
-    position: relative;
-    object-fit: cover;
-    left: 40%;
-    width: 18%;
-    border-radius: 10px 30px / 50%; 
-}
-@media only screen and (max-width: 500px) {
-    .img__nav{
-        left: 37%;
-        width: 24%;
-    }
-}
+
 /* Parte del nav */
 .navcont{
     background:#20ced3;
@@ -86,52 +72,41 @@ body{
     box-shadow: 10px 5px 5px #20cdd381;
     border-radius: 90px;
 }
-/* Hoja de vida */
-.txt--Hvida{
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 6em;
-    color: #1089f0;
-    display: inline-block;
-}
-.texto1{animation: bouncel .50s alternate infinite ease-in;}
-.texto2{animation: bounce2 .50s alternate infinite ease-in;}
-.texto3{animation: bounce3 .50s alternate infinite ease-in;}
-.texto4{animation: bounce4 .50s alternate infinite ease-in;}
-
-@keyframes bouncel{
-    0%{
-        transform: translateX(-40%);
-    }
-    100%{
-        transform: translateX(10%);
-    }
-}
-@keyframes bounce2{
-    0%{
-        transform: translateX(-40%);
-    }
-    100%{
-        transform: translateX(10%);
-    }
-}
-@keyframes bounce3{
-    0%{
-        transform: translateX(40%);
-    }
-    100%{
-        transform: translateX(10%);
-    }
-}
-@keyframes bounce4{
-    0%{
-        transform: translateX(40%);
-    }
-    100%{
-        transform: translateX(-10%);
-    }
-}
-/* PortaFolio */
-.section-1 .section-2{
+/**/
+.section-1{
     padding: 20vmin 0;
+}
+.img-Abouth{
+    width: 80%;
+    object-fit: cover;
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity:0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}   
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+    color: var(--blue3);
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.5);
 }
