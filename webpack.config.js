@@ -17,7 +17,9 @@ module.exports={
             }
         ]
     },
-    plugin:{
-
-    }
+    plugin:[
+        new htmlWebpackPlugin({
+            template:'/index.html'
+        })
+    ]
 };
