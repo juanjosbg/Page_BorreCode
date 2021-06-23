@@ -119,7 +119,7 @@ footer{
     right: 0;
     background:#20ced3;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
     color: #fff;
 }
@@ -165,7 +165,7 @@ footer{
 }
 .footer-bottom{
     background:#03595c;
-    width: 100vw;
+    width: 100%;
     padding-top: 20px 0;
     text-align: center;
 }

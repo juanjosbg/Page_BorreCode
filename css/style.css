@@ -19,6 +19,7 @@
 body{
     font-family: 'Open Sans', sans-serif;;
 } 
+
 /* Cabeza Logo */
 .Logo__Cabeza{
     display: flex;
@@ -88,11 +89,12 @@ body{
 }
 /* Hoja de vida */
 .txt--Hvida{
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: bold;
     margin-top: 6em;
-    color: #1089f0;
+    color: #19d7dd;
     display: inline-block;
+    
 }
 .texto1{animation: bouncel .50s alternate infinite ease-in;}
 .texto2{animation: bounce2 .50s alternate infinite ease-in;}
