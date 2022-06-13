@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;500;700&display=swap');
 /* contenidos de boostrap*/
 @import url(bootstrap.css);
+
 /*--------------------------------------------------*/
 :root {
     --blue1: #a5eaef;
@@ -100,13 +101,14 @@ body {
 .img-Abouth {
     width: 80%;
     object-fit: cover;
-    height: auto;
+    height: 78vh;
     display: block;
     margin: 0 auto;
     justify-content: center;
+    margin-right: 46px;
 }
 
-.panel{
+.panel {
     width: 125vh;
     height: 65vh;
     padding: 50px;
@@ -118,32 +120,90 @@ body {
     left: -126px;
     background: #fffffff1;
 }
-.pt-sub{
+
+.pt-sub {
     opacity: .4;
     font-size: 12px;
     font-weight: 300;
 }
-.panel h1{
+
+.panel h1 {
     color: var(--blue6);
 }
-.panel p{
+
+.panel p {
     font-size: 18px;
     font-weight: 400;
 }
-.acDibu{
+
+.acDibu {
     color: #47B5FF;
     font-weight: 600;
 }
-.uao{
+
+.uao {
     color: rgb(204, 20, 20);
     font-weight: 600;
 }
 
+@media only screen and (max-width: 600px) {
+    .panel {
+        width: auto;
+        height: auto;
+        left: 0;
+    }
+    .img-Abouth {
+        width: 100%;
+        height: 74vh;
+        margin-right: 0;
+        border-radius: 9px;
+    }
+}
+
+@media (min-width: 768px) {
+    .panel {
+        width: 89vh;
+        height: 49vh;
+        top: 1vh;
+        left: -122px;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .panel {
+        width: 125vh;
+        height: 65vh;
+        top: 6vh;
+        left: -126px;
+        padding: 50px;
+    }
+    .img-Abouth {
+        width: 80%;
+        height: 78vh;
+        margin-right: 46px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .panel {
+        width: 88vh;
+        height: 43vh;
+        top: 6vh;
+        left: -126px;
+    }
+
+    .img-Abouth {
+        width: 80%;
+        height: 54vh;
+        margin-right: 46px;
+        border-radius: 9px;
+    }
+}
 
 /* ---------------------------------------------- */
 /* Footer */
 footer {
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
