@@ -297,9 +297,9 @@ Filename      : main.css
         z-index: 2;
         top: -100%;
         display: none;
-        background: #03a9f4;;
+        background: #03a9f4 !important;
         padding: 80px 0 30px 0;
-        box-shadow: 0 0 10px 5px rgb(39 131 172 / 71%);
+        box-shadow: 0 0 10px 5px rgb(39 131 172 / 71%) !important;
     }
 
     .overlay__listnav {
